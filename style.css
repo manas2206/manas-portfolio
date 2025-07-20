@@ -1,0 +1,18 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Poppins', sans-serif; background: #f5f7fa; color: #333; line-height: 1.6; }
+.hero { background: linear-gradient(to right, #004e92, #000428); color: white; text-align: center; padding: 3rem 1rem; }
+.hero h1 { font-size: 3rem; }
+.typing-text { font-size: 1.2rem; margin-top: 0.5rem; animation: typing 3s steps(30) infinite; white-space: nowrap; overflow: hidden; border-right: 2px solid white; }
+@keyframes typing { 0% { width: 0 } 100% { width: 100% } }
+.btn { display: inline-block; background: #ff7e5f; color: white; padding: 10px 25px; margin-top: 1rem; border-radius: 5px; text-decoration: none; transition: background 0.3s ease; }
+.btn:hover { background: #feb47b; }
+.navbar { position: sticky; top: 0; background: #222; display: flex; justify-content: center; padding: 10px; z-index: 999; }
+.navbar a { color: white; text-decoration: none; margin: 0 15px; font-weight: 500; }
+.navbar a:hover { text-decoration: underline; }
+.section { padding: 2rem; max-width: 1000px; margin: auto; }
+.section h2 { color: #333; margin-bottom: 1rem; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+.card { background: white; padding: 1rem; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); transition: transform 0.3s; }
+.card:hover { transform: translateY(-5px); }
+.skills-list { list-style: none; line-height: 2; }
+footer { background: #000428; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
