@@ -9,6 +9,7 @@
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
+  <!-- Hero Section -->
   <header class="hero">
     <div class="container">
       <img src="profile.jpg" alt="Manas Pandey" class="profile-pic"/>
@@ -18,6 +19,7 @@
     </div>
   </header>
 
+  <!-- Navigation Bar -->
   <nav class="navbar">
     <a href="#about">About</a>
     <a href="#projects">Projects</a>
@@ -29,21 +31,51 @@
     <a href="#contact">Contact</a>
   </nav>
 
+  <!-- About Section -->
   <section id="about" class="section">
     <h2>About Me</h2>
     <p>I’m a passionate Data Scientist and Software Engineer with experience in machine learning, web development, and data analytics. I build intelligent solutions that solve real-world problems and help businesses grow through insights.</p>
   </section>
 
+  <!-- Projects Section -->
   <section id="projects" class="section">
     <h2>Projects</h2>
     <div class="cards">
-      <div class="card"><h3>CCTV Event Summarizer</h3><p>YOLOv8 + Streamlit for real-time anomaly detection and summarization.</p></div>
-      <div class="card"><h3>Waste Classifier CNN</h3><p>Classified dry/wet waste with 92% accuracy using TensorFlow.</p></div>
-      <div class="card"><h3>Movie Recommender</h3><p>Flask + cosine similarity-based hybrid recommender engine.</p></div>
-      <div class="card"><h3>Power BI Dashboard</h3><p>Visualized business KPIs using DAX and Power Query.</p></div>
+      <div class="card">
+        <h3>Fine-Tuned RAG Chatbot</h3>
+        <p>Retrieval-Augmented Generation chatbot integrating document embeddings (SentenceTransformers), FAISS vector search, and an open-source LLM (Flan-T5-base) using Streamlit for interactive document Q&A.</p>
+        <a href="https://github.com/manas2206/rag-chatbot" target="_blank" class="btn">View Project</a>
+      </div>
+
+      <div class="card">
+        <h3>Resume Matcher</h3>
+        <p>Machine learning-based app that compares resumes with job descriptions using NLP and cosine similarity to generate ATS-based match scores. Built with Flask and scikit-learn.</p>
+        <a href="https://github.com/manas2206/resume-matcher" target="_blank" class="btn">View Project</a>
+      </div>
+
+      <div class="card">
+        <h3>CCTV Event Summarizer</h3>
+        <p>YOLOv8 + Streamlit app for real-time anomaly detection and event summarization in CCTV footage.</p>
+      </div>
+
+      <div class="card">
+        <h3>Waste Classifier CNN</h3>
+        <p>Classified dry and wet waste with 92% accuracy using Convolutional Neural Networks in TensorFlow.</p>
+      </div>
+
+      <div class="card">
+        <h3>Movie Recommender</h3>
+        <p>Flask-based hybrid recommender system using cosine similarity and metadata filtering.</p>
+      </div>
+
+      <div class="card">
+        <h3>Power BI Dashboard</h3>
+        <p>Interactive data visualization dashboard created with Power BI, DAX, and Power Query to analyze KPIs.</p>
+      </div>
     </div>
   </section>
 
+  <!-- Skills Section -->
   <section id="skills" class="section">
     <h2>Skills</h2>
     <ul class="skills-list">
@@ -55,25 +87,28 @@
     </ul>
   </section>
 
+  <!-- Experience Section -->
   <section id="experience" class="section">
     <h2>Experience</h2>
     <p><strong>AI/ML Developer – Vinayan India</strong> (May 2025 – Present)</p>
     <ul>
-      <li>Built machine learning models for automation</li>
-      <li>Developed Streamlit dashboards for real-time insights</li>
+      <li>Built and deployed machine learning models for automation and optimization tasks.</li>
+      <li>Developed Streamlit dashboards for real-time analytics and insights.</li>
     </ul>
-    <p><strong>Data Science Intern – CRIS</strong> (Jul–Sep 2024)</p>
+    <p><strong>Data Science Intern – CRIS (Centre for Railway Information Systems)</strong> (Jul–Sep 2024)</p>
     <ul>
-      <li>Developed predictive models on government datasets</li>
-      <li>Collaborated with mentors on real-world case studies</li>
+      <li>Developed predictive models using government datasets and feature engineering techniques.</li>
+      <li>Collaborated with mentors to create visual analytics dashboards and case studies.</li>
     </ul>
   </section>
 
+  <!-- Education Section -->
   <section id="education" class="section">
     <h2>Education</h2>
     <p>B.Tech in Computer Science – Sunder Deep Engineering College, Ghaziabad<br>CGPA: 7.8 | 2021–2025</p>
   </section>
 
+  <!-- Certifications Section -->
   <section id="certifications" class="section">
     <h2>Certifications</h2>
     <ul>
@@ -83,25 +118,31 @@
     </ul>
   </section>
 
+  <!-- Blog Section -->
   <section id="blog" class="section">
     <h2>Blog</h2>
     <p>Coming soon: Articles on data science, AI, and project write-ups.</p>
   </section>
 
+  <!-- Contact Section -->
   <section id="contact" class="section contact">
     <h2>Contact</h2>
     <div class="socials">
       <a href="mailto:immanaspandey@gmail.com"><i class="fas fa-envelope"></i></a>
       <a href="https://www.linkedin.com/in/pandeymanas01/" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://github.com/manas2206" target="_blank"><i class="fab fa-github"></i></a>
     </div>
     <p>Email: immanaspandey@gmail.com</p>
     <p>Phone: +91-9369328122</p>
     <a class="btn" href="Manas_Pandey_Resume.pdf" download>Download Resume</a>
   </section>
 
-  <footer><p>© 2025 Manas Pandey | All rights reserved.</p></footer>
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Manas Pandey | All rights reserved.</p>
+  </footer>
 
+  <!-- Typing Animation & Dark Mode Script -->
   <script>
     const typedTextSpan = document.querySelector(".typed-text");
     const cursorSpan = document.querySelector(".cursor");
